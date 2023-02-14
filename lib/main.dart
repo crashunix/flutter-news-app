@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_news_app/news_detail_page.dart';
+import 'package:flutter_news_app/news_detail_screen.dart';
+import 'package:flutter_news_app/profile_screen.dart';
 import 'app_styles.dart';
 import 'size_config.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -30,7 +31,7 @@ class _MyAppState extends State<MyApp> {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           backgroundColor: kLighterWhite,
-          body: const NewsDetailScreen(),
+          body: const ProfileScreen(),
           bottomNavigationBar: BottomNavigationBar(
             elevation: 0,
             type: BottomNavigationBarType.fixed,
